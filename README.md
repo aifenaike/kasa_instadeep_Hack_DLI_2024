@@ -13,10 +13,12 @@ The objective of the Instadeep hackathon is to improve _de novo_ peptide sequenc
 # **InstaNovo Peptide Recalibration and Filtering Solution**
 
 
-### **Objective**
-1. [Ifenaike Alexander](https://www.linkedin.com/in/alexander-ifenaike/)
-2. [Awobade Busayo](https://www.linkedin.com/in/busayo-awobade-107a94175/)
-3. [Babawale Sodiq](https://www.linkedin.com/in/sodiq-babawale-266a78220/)
+### **Team**
+These are the members of Team Kasa, who put together the idea and winning solution.
+
+1. [Ifenaike Alexander](https://www.linkedin.com/in/alexander-ifenaike/) 🇳🇬
+2. [Awobade Busayo](https://www.linkedin.com/in/busayo-awobade-107a94175/) 🇳🇬
+3. [Babawale Sodiq](https://www.linkedin.com/in/sodiq-babawale-266a78220/) 🇳🇬
 
 ### **Objective**
 
