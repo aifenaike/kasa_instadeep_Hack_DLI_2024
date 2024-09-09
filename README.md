@@ -52,7 +52,7 @@ Our approach leverages multiple filtering techniques and feature engineering ste
 
 ## **Files in this Repository**
 
-- `notebook.ipynb`: Jupyter notebook with the full solution, including data processing, feature engineering, model training, and evaluation.
+- `Team_KASA_Instadeep_Winner_Solution.ipynb`: Jupyter notebook with the full solution, including data processing, feature engineering, model training, and evaluation.
 - `requirements.txt`: List of dependencies required to run the notebook.
 
 ## **Installation Instructions**
