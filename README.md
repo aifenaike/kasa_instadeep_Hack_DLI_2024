@@ -36,7 +36,7 @@ Our approach leverages multiple filtering techniques and feature engineering ste
    - Data from InstaNovo, including top beam predictions and additional metadata like retention time, mass-to-charge ratio, and intensity arrays.
 
 2. **Filtering Methods**
-   - Filtering rows with empty strings in the Beam 0 column and negative infinity in the log probability column.
+   - Filtering rows with empty strings in the Target column and inserting negative infinity in the log probability column. This corresponds to rows where the top 5 peptides predicted by InstaNovo doesn't align with the actual peptide target.
    - Filtering on precursor mass to remove invalid peptide predictions.
    - Filtering using retention time to exclude predictions outside acceptable time ranges.
 
