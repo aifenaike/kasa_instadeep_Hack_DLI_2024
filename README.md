@@ -36,18 +36,19 @@ Our approach leverages multiple filtering techniques and feature engineering ste
    - Data from InstaNovo, including top beam predictions and additional metadata like retention time, mass-to-charge ratio, and intensity arrays.
 
 2. **Filtering Methods**
+   - Optimized thresholds for ppm_tolerance, max_isotope_error and precursor_weight filters.
    - Filtering rows with empty strings in the Target column and inserting negative infinity in the log probability column. This corresponds to rows where the top 5 peptides predicted by InstaNovo doesn't align with the actual peptide target.
    - Filtering on precursor mass to remove invalid peptide predictions.
    - Filtering using retention time to exclude predictions outside acceptable time ranges.
 
-3. **Feature Engineering**
+4. **Feature Engineering**
    - Comparisons between Beam 0 and other beams.
    - Statistical summaries (mean, median, and standard deviation) of `mz_array` and `intensity_array`.
 
-4. **Model Training**
+5. **Model Training**
    - Training a LightGBM binary classifier using the engineered features to recalibrate the confidence scores and filter false positives.
 
-5. **Output**
+6. **Output**
    - Model outputs peptide IDs, target sequences, and recalibrated confidence scores.
 
 ## **Files in this Repository**
